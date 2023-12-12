@@ -40,8 +40,8 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.переводToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.переводВРимскуюСистемуСчисленияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.textExplain = new System.Windows.Forms.TextBox();
             this.сложениеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textExplain = new System.Windows.Forms.TextBox();
             this.textExplainInWords = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -160,6 +160,13 @@
             this.переводВРимскуюСистемуСчисленияToolStripMenuItem.Text = "Перевод в римскую систему счисления";
             this.переводВРимскуюСистемуСчисленияToolStripMenuItem.Click += new System.EventHandler(this.переводВРимскуюСистемуСчисленияToolStripMenuItem_Click);
             // 
+            // сложениеToolStripMenuItem
+            // 
+            this.сложениеToolStripMenuItem.Name = "сложениеToolStripMenuItem";
+            this.сложениеToolStripMenuItem.Size = new System.Drawing.Size(109, 24);
+            this.сложениеToolStripMenuItem.Text = "Вычисления";
+            this.сложениеToolStripMenuItem.Click += new System.EventHandler(this.сложениеToolStripMenuItem_Click);
+            // 
             // textExplain
             // 
             this.textExplain.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -168,13 +175,6 @@
             this.textExplain.Name = "textExplain";
             this.textExplain.Size = new System.Drawing.Size(587, 415);
             this.textExplain.TabIndex = 11;
-            // 
-            // сложениеToolStripMenuItem
-            // 
-            this.сложениеToolStripMenuItem.Name = "сложениеToolStripMenuItem";
-            this.сложениеToolStripMenuItem.Size = new System.Drawing.Size(94, 24);
-            this.сложениеToolStripMenuItem.Text = "Сложение";
-            this.сложениеToolStripMenuItem.Click += new System.EventHandler(this.сложениеToolStripMenuItem_Click);
             // 
             // textExplainInWords
             // 
